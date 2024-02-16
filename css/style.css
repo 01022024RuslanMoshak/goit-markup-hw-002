@@ -1,7 +1,7 @@
 :root {
   /* стилі тексту */
-  --font-family: "Roboto", sans-serif;
-  --secondary-family: "Raleway", sans-serif;
+  --font-family: 'Roboto', sans-serif;
+  --secondary-family: 'Raleway', sans-serif;
   /* кольори тексту */
   --accent-text-cl: #2196f3;
   --main-text-cl: #212121;
@@ -98,7 +98,7 @@ a {
   color: var(--under-text-cl);
 }
 .header-mail {
-  color: #2196f3;
+  color: var(--under-text-cl);
 }
 .navigation-link-accent {
   color: var(--accent-text-cl);
